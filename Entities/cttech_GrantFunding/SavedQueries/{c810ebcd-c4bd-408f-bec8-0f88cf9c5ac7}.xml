@@ -15,6 +15,9 @@
           <cell name="cttech_fund" width="100" />
           <cell name="cttech_department" width="107" />
           <cell name="cttech_sid" width="100" />
+          <cell name="cttech_funding" width="100" />
+          <cell name="cttech_chartfield2" width="107" />
+          <cell name="cttech_sid1" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -35,6 +38,9 @@
           <attribute name="cttech_fund" />
           <attribute name="cttech_department" />
           <attribute name="cttech_sid" />
+          <attribute name="cttech_funding" />
+          <attribute name="cttech_chartfield2" />
+          <attribute name="cttech_sid1" />
         </entity>
       </fetch>
     </fetchxml>

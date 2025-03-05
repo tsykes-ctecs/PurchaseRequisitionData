@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cttech_purchaserequisitiontype" localizedName="Purchase Requisition Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Purchase Requisition Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="397830000" ExternalValue="" Color="#bffff8" IsHidden="0">
+      <labels>
+        <label description="Non-IT" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830001" ExternalValue="" Color="#bfdedd" IsHidden="0">
+      <labels>
+        <label description="IT" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830002" Color="#d4fcca" IsHidden="0">
+      <labels>
+        <label description="Teaching &amp; Learning" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830003" Color="#bfc5ff" IsHidden="0">
+      <labels>
+        <label description="Facilities" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830004" Color="#ffd9d9" IsHidden="0">
+      <labels>
+        <label description="Facilities Emergency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830005" Color="#e4c2ff" IsHidden="0">
+      <labels>
+        <label description="Facilities Security " languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="397830006" Color="#dbcfff" IsHidden="0">
+      <labels>
+        <label description="School Nutrition" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

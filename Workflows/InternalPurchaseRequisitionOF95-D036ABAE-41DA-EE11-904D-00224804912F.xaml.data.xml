@@ -127,36 +127,4 @@
       <label languagecode="1033" description="Status Reason" />
     </steplabels>
   </labels>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{6af6e75c-1cf6-ef11-be21-00224802a9a5}">
-      <controltype>1</controltype>
-      <methodid>{f875b32e-9c2b-4b58-b9e5-00fea1759379}</methodid>
-      <scope>1</scope>
-      <controlname>cttech_purchaserequisitiontype</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{6ff6e75c-1cf6-ef11-be21-00224802a9a5}">
-      <controltype>1</controltype>
-      <methodid>{f875b32e-9c2b-4b58-b9e5-00fea1759379}</methodid>
-      <scope>1</scope>
-      <controlname>cttech_of95statusreason</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{70f6e75c-1cf6-ef11-be21-00224802a9a5}">
-      <controltype>1</controltype>
-      <methodid>{49526f95-e0d1-435f-8c70-de231749b3c0}</methodid>
-      <scope>1</scope>
-      <controlname>cttech_of95statusreason</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

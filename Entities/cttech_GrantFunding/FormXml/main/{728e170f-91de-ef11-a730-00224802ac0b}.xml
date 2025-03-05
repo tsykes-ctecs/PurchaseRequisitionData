@@ -107,6 +107,24 @@
                         </control>
                       </cell>
                     </row>
+                    <row>
+                      <cell locklevel="0" id="{1cd8175c-649a-4623-9c90-a887876f9c91}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{3960094f-bed0-4da1-a0e2-b6ec74bebf12}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{ddff11c6-52db-40bd-bf6d-3deb8191daf1}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Chartfield 2" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_chartfield2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_chartfield2" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
