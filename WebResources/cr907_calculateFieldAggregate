@@ -1,0 +1,12 @@
+function expenseAggregation(executionContext) {
+	var internalPurchaseRequisitionForm = executionContext.getFormContext();
+	var expenseTab = internalPurchaseRequisitionForm.getControl("expenseLineItems") || {};
+
+	if (Object.keys(expenseTab).length !== 0) {
+		expenseTab.addOnLoad(expenseTabAggregation);
+	}
+
+	function expenseTabAggregation(subgridControl) {
+		alert('WOW');
+	}
+}

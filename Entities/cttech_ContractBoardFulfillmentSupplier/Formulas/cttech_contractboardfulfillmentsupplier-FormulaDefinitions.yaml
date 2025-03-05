@@ -1,0 +1,4 @@
+cttech_supplier: |-
+    =Text(cttech_supplierid, "###")
+cttech_vendorid: |-
+    =Text(cttech_bmsoid, "###")

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{43396c32-db86-46cc-8a4c-7f50b9ac727c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_activitylogid" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_internalpurchaserequisitionactivitylogid">
+          <cell name="cttech_activitylogid" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_internalpurchaserequisitionactivitylog">
+          <attribute name="cttech_internalpurchaserequisitionactivitylogid" />
+          <attribute name="cttech_activitylogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Internal Purchase Requisition - Activity Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

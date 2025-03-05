@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a1e2e865-73bb-ef11-b8e9-6045bd002397}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_internalpurchaserequisitionid">
+          <cell name="cttech_name" width="200" />
+          <cell name="cttech_grantfunding" width="150" />
+          <cell name="cttech_of95statusreason" width="155" />
+          <cell name="cttech_purchaserequisitiontype" width="200" />
+          <cell name="createdon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="cttech_internalpurchaserequisition">
+          <attribute name="cttech_internalpurchaserequisitionid" />
+          <attribute name="cttech_name" />
+          <attribute name="createdon" />
+          <attribute name="cttech_grantfunding" />
+          <attribute name="cttech_purchaserequisitiontype" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="cttech_of95statusreason" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="cttech_purchaserequisitiontype" operator="in">
+              <value>397830003</value>
+              <value>397830004</value>
+              <value>397830005</value>
+              <value>397830001</value>
+              <value>397830000</value>
+              <value>397830006</value>
+              <value>397830002</value>
+            </condition>
+            <condition attribute="cttech_of95statusreason" operator="eq" value="397830007" />
+            <condition attribute="cttech_location" operator="eq" value="{a530914c-d7ea-ee11-a203-000d3a3543a3}" uiname="Eli Whitney" uitype="account" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Pending Requisition's (Whitney)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="INTERNAL PURCHASE REQUISITIONS" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

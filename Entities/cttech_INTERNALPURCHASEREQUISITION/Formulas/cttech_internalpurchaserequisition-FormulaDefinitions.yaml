@@ -1,0 +1,3 @@
+cttech_recommendedvendor: =!IsBlank(cttech_FulfillmentSupplier.cttech_fulfillmentsupplierid)
+cttech_submissionsource: =cttech_SubmittedByv2.cttech_createdsource
+cttech_submitedbyemail: =cttech_SubmittedByv2.cttech_contactemail

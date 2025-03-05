@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bddc0100-0dbe-4562-aafe-31d08c8ab506}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighReadOnlyValues" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{4e685d18-f4e0-4a73-a113-04f2e36439e0}" IsUserDefined="0" labelid="{a2f03898-14ad-4d93-b9cd-f7d37d5fdcea}" name="general" contenttype="cardSections" ordinalvalue="0" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" id="{7192bd67-ae8a-4119-9943-726e9c0e8c34}" IsUserDefined="0" labelid="{adc5d95d-0c2a-4df9-bf61-71fd86efb383}" name="account" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Account" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{55df8f54-b227-4d66-b3a2-e3d1ad0ba1c1}" labelid="{c7fd4243-6a7a-4435-8aaf-953f5283a5ec}" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{9108f9a4-756b-4a9a-b400-eae2eac99a21}" labelid="{f1cf3f3f-2bcc-47bc-8667-571b4b9d7a26}" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{b0573440-4f34-4857-9694-e1daac23a39d}" labelid="{698fced1-956a-417f-81fb-9f3256b1df54}" ordinalvalue="10002" solutionaction="Removed" />
+                      <cell id="{d32a1ef6-2ca2-49d7-8702-7b3a3b422159}" labelid="{d6a51e3a-adc6-4572-b00d-875814c02300}" showlabel="true" locklevel="0" ordinalvalue="20003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{5396d9c9-52cf-4475-975d-3903a8e42b59}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Removed" />
+                      <cell id="{fc1712b0-4141-4b3b-97e4-d23c725919e9}" showlabel="true" locklevel="0" ordinalvalue="20005" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{52da8973-93ee-4518-b734-3c5b7071e6d9}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Removed" />
+                      <cell id="{b08253fd-3ec6-4586-97ef-919ae23162c1}" showlabel="true" locklevel="0" ordinalvalue="20007" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{2143b3fc-8496-4525-a06d-7266efcdb48d}" showlabel="true" locklevel="0" colspan="2" rowspan="4" ordinalvalue="10008" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{6bb33121-88c0-43db-bc2a-ec1e3caac2cf}" locklevel="0" colspan="2" rowspan="1" ordinalvalue="10009" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{86774885-62b5-4ea3-beaf-99b4f8771b67}" showlabel="true" locklevel="1" labelid="{f5255f74-a2ee-4b7c-b63a-f8cd8cc93a2f}" visible="false" ordinalvalue="10000" solutionaction="Modified" />
+                      <cell locklevel="0" id="{5d5fc5e8-416c-4331-bd00-30100cdafef8}" ordinalvalue="20011" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{d6b32672-059f-4443-aae6-86843826ca59}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_accountlocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_accountlocation" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AvailableViewIds>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{1C6B9540-17DF-EF11-A730-00224802A9A5},{15C63745-0A6E-4322-8416-A62C84D90279},{CFBCD7AF-AEE5-4E45-8ECC-C040D4020581},{49FB9771-09E1-4E70-B193-198752493577},{00000000-0000-0000-00AA-000010001002},{65FFAF9A-E8C5-432D-860B-32F841B00D87},{00000000-0000-0000-00AA-000010001031},{00000000-0000-0000-00AA-000010001001},{D234426E-1F37-4944-9255-50E19B541C4C}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{bc58ee96-a743-44b3-8061-210385e2427a}" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Account Details" languagecode="1033" />
+                        </labels>
+                        <control id="accountDetails" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cttech_accountlocation">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;2ead7a8f-d5df-ef11-a730-00224802ac0b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="profile" id="f657b5e0-c091-4c5c-8ec1-4578f374c11f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Profile" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{b2da5a99-cbef-429f-82ad-20c237fdbe0b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f3e4a6f-863f-4945-9fa6-2ad91497469e}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5b279db-e622-4e18-a503-e2417748217b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b87951ca-ac15-48d0-a9a9-d165642730a5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00a5fa1b-6209-492e-b8ba-f6eaa963ff01}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fc326fb6-158a-4289-883a-48a39a2c2d1a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{44d88d0c-6fde-4b11-8559-7d78be42f72d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="Full Name" languagecode="1033" />
+              </labels>
+              <control id="fullname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" />
+            </cell>
+            <cell locklevel="0" id="{1ed76a9a-7865-475c-b0e4-2a2fcf3eddd5}" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{a8039690-47bf-4506-84d7-abecda77d2f8}" ordinalvalue="30002" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions solutionaction="Added">
+        <controlDescription forControl="{262634a2-d5fb-4da7-841f-48653c3cfa4b}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>cttech_accountlocation</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>cttech_accountlocation</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>cttech_accountlocation</BindAttribute>
+                <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;0f8d3b0d-d7df-ef11-a730-00224802a9a5&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>cttech_accountlocation</BindAttribute>
+                <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;0f8d3b0d-d7df-ef11-a730-00224802a9a5&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>cttech_accountlocation</BindAttribute>
+                <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;0f8d3b0d-d7df-ef11-a730-00224802a9a5&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Profile Web Form (Enhanced)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This form is used by the portal for the user to update their contact info" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

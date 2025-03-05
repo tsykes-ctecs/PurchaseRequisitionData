@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c73c1529-0507-ef11-9f8a-000d3a3b538d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{a77b8122-133c-42cc-9d95-73f2ce3d26d2}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{1f964a1b-2f5d-4ec4-9437-c19ef966cd7a}">
+                  <labels>
+                    <label description="Accounting" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{f631ca03-dc6a-4a6c-b7d4-d88a36ec5504}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f152260-7803-4bd8-b1cb-20192718d9f8}" locklevel="0" colspan="1" rowspan="1" labelid="{9dbfdc4a-6c17-4937-8869-44e6787bec73}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c95105b-34ff-4784-8269-d23da01ab24d}" locklevel="0" colspan="1" rowspan="1" labelid="{17692a28-116f-4ced-bc3b-7990c910ffe3}">
+                        <labels>
+                          <label description="Fund" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_fund" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cttech_fund" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79fef9e9-80b1-441f-9684-c6a2a38cc8b5}" locklevel="0" colspan="1" rowspan="1" labelid="{85f05049-bd55-498d-ace4-ba735c3b8fd7}">
+                        <labels>
+                          <label description="SID" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_sid" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cttech_sid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14e38cf0-69e9-4161-bd94-ac4d09d319c1}" locklevel="0" colspan="1" rowspan="1" labelid="{fb36e706-9d3c-44df-8b51-99bcd7ba0168}">
+                        <labels>
+                          <label description="Chartfield 1" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_chartfield1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_chartfield1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2519f4a1-9828-4e30-9808-521813f5d783}" locklevel="0" colspan="1" rowspan="1" labelid="{b6dcb84b-e6cd-4218-a64d-3ec367935ed9}">
+                        <labels>
+                          <label description="Chartfield 2" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_chartfield2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_chartfield2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb14fdf3-57c7-440d-ac97-306c3e22f534}" locklevel="0" colspan="1" rowspan="1" labelid="{39847cd5-7add-4bcf-8674-165301255440}">
+                        <labels>
+                          <label description="BR" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_br" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cttech_br" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Funding quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

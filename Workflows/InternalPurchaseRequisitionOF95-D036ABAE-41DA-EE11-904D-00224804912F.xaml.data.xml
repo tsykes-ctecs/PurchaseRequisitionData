@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{d036abae-41da-ee11-904d-00224804912f}" Name="Internal Purchase Requisition OF95" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/InternalPurchaseRequisitionOF95-D036ABAE-41DA-EE11-904D-00224804912F.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>cttech_internalpurchaserequisitionof95</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cttech_INTERNALPURCHASEREQUISITION</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Internal Purchase Requisition OF95" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{f875b32e-9c2b-4b58-b9e5-00fea1759379}">
+      <label languagecode="1033" description="New OF95 - Stage 1" />
+    </steplabels>
+    <steplabels id="{98235168-565d-4559-a4a0-e521f8fce8f5}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{60a0c538-327c-4989-9381-87c3fe746c10}">
+      <label languagecode="1033" description="Grant Funding" />
+    </steplabels>
+    <steplabels id="{b9cc723c-cea6-4fdc-9af0-b16a5bd731f0}">
+      <label languagecode="1033" description="Purchase Requisition Type" />
+    </steplabels>
+    <steplabels id="{7951d2cd-ee6c-487d-ab4c-9b75b657d09a}">
+      <label languagecode="1033" description="Created On" />
+    </steplabels>
+    <steplabels id="{f16a9291-5d1b-4f23-b14f-7bda7aad7c4d}">
+      <label languagecode="1033" description="Pending Approval Decision - Stage 2" />
+    </steplabels>
+    <steplabels id="{2b4be609-7ea5-4fe7-99c0-7ccdc4f14156}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{d2b5dc66-e09f-4bdb-b328-2790714873c4}">
+      <label languagecode="1033" description="Email Address:" />
+    </steplabels>
+    <steplabels id="{d57bcf9e-66c7-48ec-9c63-a19fe882c88c}">
+      <label languagecode="1033" description="OF95 Stage 2" />
+    </steplabels>
+    <steplabels id="{3af4347b-6f98-40f1-8330-5860bfd2fd49}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{463c781e-c569-4bf7-bcd5-ba48fdbace73}">
+      <label languagecode="1033" description="Stage 2 Step 1 Approval" />
+    </steplabels>
+    <steplabels id="{cf6e942a-76e4-487b-b270-97d09a2598e2}">
+      <label languagecode="1033" description="Approver Name:" />
+    </steplabels>
+    <steplabels id="{9c727581-ba36-41d5-b298-d45b9b43cc3f}">
+      <label languagecode="1033" description="Approval Decision:" />
+    </steplabels>
+    <steplabels id="{d0ff9ab5-0e71-4f29-ad59-aeb0bd5a4176}">
+      <label languagecode="1033" description="Decision Comment" />
+    </steplabels>
+    <steplabels id="{2a6db5b8-51fb-435f-893d-85776e14d150}">
+      <label languagecode="1033" description="Purchase Requisition Type" />
+    </steplabels>
+    <steplabels id="{d681c415-8cc8-44b4-9715-32b97f443407}">
+      <label languagecode="1033" description="Stage 2 Step 2 Approval" />
+    </steplabels>
+    <steplabels id="{0bbc8c25-74c8-4d8e-8c54-31a14fd34385}">
+      <label languagecode="1033" description="Approver Name:" />
+    </steplabels>
+    <steplabels id="{59e5f4ae-089f-4f80-8106-72fe3c536eee}">
+      <label languagecode="1033" description="Approval Decision:" />
+    </steplabels>
+    <steplabels id="{801a5987-8402-477d-badb-7e0dd28772de}">
+      <label languagecode="1033" description="Decision Comment" />
+    </steplabels>
+    <steplabels id="{3261de10-39af-41b0-b146-7f50c4fb803b}">
+      <label languagecode="1033" description="Purchase Requisition Type" />
+    </steplabels>
+    <steplabels id="{49526f95-e0d1-435f-8c70-de231749b3c0}">
+      <label languagecode="1033" description="Approval Decision - Stage 2" />
+    </steplabels>
+    <steplabels id="{ec55cf3e-b391-44a8-a9cc-5ee1c90540e4}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{23f12ecf-7e85-4663-a73d-935f9810ad0e}">
+      <label languagecode="1033" description="Approved - Stage 3" />
+    </steplabels>
+    <steplabels id="{60d22d9e-0cc8-43b9-a39c-717ee4ec4537}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{024e409b-cf4c-4334-ba3b-98a7f458795b}">
+      <label languagecode="1033" description="Accounting &amp; Approval Review OF95 - Stage 5" />
+    </steplabels>
+    <steplabels id="{f7bcca8a-22ba-4244-8f40-03e8f7512192}">
+      <label languagecode="1033" description="Dept" />
+    </steplabels>
+    <steplabels id="{bf6cb7db-0580-41f0-aa65-4aed105b52ea}">
+      <label languagecode="1033" description="Rejected - Stage 3" />
+    </steplabels>
+    <steplabels id="{a99ec1ce-336d-4503-bec2-3a9f904e24b9}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{26b21230-23da-45e1-8f18-f66e22790b0a}">
+      <label languagecode="1033" description="Rejected OF95 - Stage Closing" />
+    </steplabels>
+    <steplabels id="{3f62fdd5-890e-4f33-a134-07689fcbb9ff}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{aa80f3b7-7901-4e41-9281-1c20b10baa58}">
+      <label languagecode="1033" description="OF95 Request Closed" />
+    </steplabels>
+    <steplabels id="{d8868222-9186-4fef-8fa4-00ea2094b65e}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{c213f1b0-6e9e-4c65-844f-3440633cf37f}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{6af6e75c-1cf6-ef11-be21-00224802a9a5}">
+      <controltype>1</controltype>
+      <methodid>{f875b32e-9c2b-4b58-b9e5-00fea1759379}</methodid>
+      <scope>1</scope>
+      <controlname>cttech_purchaserequisitiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{6ff6e75c-1cf6-ef11-be21-00224802a9a5}">
+      <controltype>1</controltype>
+      <methodid>{f875b32e-9c2b-4b58-b9e5-00fea1759379}</methodid>
+      <scope>1</scope>
+      <controlname>cttech_of95statusreason</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{70f6e75c-1cf6-ef11-be21-00224802a9a5}">
+      <controltype>1</controltype>
+      <methodid>{49526f95-e0d1-435f-8c70-de231749b3c0}</methodid>
+      <scope>1</scope>
+      <controlname>cttech_of95statusreason</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cttech_INTERNALPURCHASEREQUISITION</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

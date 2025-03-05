@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2ead7a8f-d5df-ef11-a730-00224802ac0b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{c5c356f9-392f-4fa5-8ec8-b4d6fd93f7f0}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="account" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{19d738f5-a458-45f6-a0ca-3af6714cffca}">
+                  <labels>
+                    <label description="Account" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{e9c3ae9d-2f62-4b7e-93aa-2f283d906bec}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc3d80c8-67d9-44db-8c8a-81e6a8d1c3f9}" locklevel="0" colspan="1" rowspan="1" labelid="{654765e4-5d87-4e30-86b5-aac74ea2efaa}">
+                        <labels>
+                          <label description="Account Category" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_accountcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_accountcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bd043af-8229-406a-88aa-9d3f9e6e37c7}" locklevel="0" colspan="1" rowspan="1" labelid="{9d742dee-101c-48d8-86fe-502f54a56b98}">
+                        <labels>
+                          <label description="Street" languagecode="1033" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e274cb2-81de-489b-b883-6eae6dfd9a4f}" locklevel="0" colspan="1" rowspan="1" labelid="{c25bf871-edb8-4ab6-a7e1-f2549072d9bb}">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0042fbdc-4872-4276-9d99-897ad3ce5f52}" locklevel="0" colspan="1" rowspan="1" labelid="{102bd76c-c716-4e73-bff0-df31fc91b685}">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                        </labels>
+                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d148ecc-2b19-45b9-b5c1-e864f9c7a86b}" locklevel="0" colspan="1" rowspan="1" labelid="{3465128e-ecff-4f20-8da5-1c9186fbf789}">
+                        <labels>
+                          <label description="Default Ship To" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_defaultaccountshipto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_defaultaccountshipto" disabled="true">
+                          <parameters>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05790d0b-3526-4012-80b0-20ea49e7afc2}" locklevel="0" colspan="1" rowspan="1" labelid="{f4b162be-ae13-4246-be99-f931ad258199}">
+                        <labels>
+                          <label description="Default Bill To" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_defaultaccountbillto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_defaultaccountbillto" disabled="true">
+                          <parameters>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="6" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IPR Power Pages - Account Quick View My Profile" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

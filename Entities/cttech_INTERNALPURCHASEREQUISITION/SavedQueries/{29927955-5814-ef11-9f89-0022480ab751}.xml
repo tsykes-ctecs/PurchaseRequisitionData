@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{29927955-5814-ef11-9f89-0022480ab751}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_internalpurchaserequisitionid">
+          <cell name="cttech_name" width="300" />
+          <cell name="cttech_grantfunding" width="123" />
+          <cell name="cttech_purchaserequisitiontype" width="190" />
+          <cell name="cttech_of95statusreason" width="155" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_internalpurchaserequisition">
+          <attribute name="cttech_internalpurchaserequisitionid" />
+          <attribute name="cttech_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="createdon" descending="true" />
+          <attribute name="cttech_of95statusreason" />
+          <attribute name="cttech_grantfunding" />
+          <attribute name="cttech_purchaserequisitiontype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Historical Internal Purchase Requisition" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

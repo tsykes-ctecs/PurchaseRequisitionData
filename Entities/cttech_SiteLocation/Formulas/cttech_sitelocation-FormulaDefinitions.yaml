@@ -1,0 +1,16 @@
+cttech_account: =cttech_sitename
+cttech_accountpoc: =cttech_SitePOC.fullname
+cttech_address: |-
+    =Concatenate(
+        cttech_street, " ",
+        cttech_city, ", ",
+        cttech_State.cttech_state, " ",
+        cttech_postalcode
+    )
+cttech_addressfull: |-
+    =Concatenate(
+        cttech_street, " ",
+        cttech_city, ", ",
+        cttech_State.cttech_statefullname, " ",
+        cttech_postalcode
+    )

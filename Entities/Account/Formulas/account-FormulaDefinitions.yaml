@@ -1,0 +1,8 @@
+cttech_accountpointofcontactemail: =Text("tbd")
+cttech_addresscomposite: |-
+    =Concatenate(
+        cttech_addressstreet, " ",
+        cttech_addresscity, ", ",
+        cttech_addressstateprovince,
+        cttech_addresspostalcode
+    )

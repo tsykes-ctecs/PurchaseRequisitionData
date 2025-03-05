@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a5f8b47c-02bb-4a3e-ac8c-d691f2b71678}</savedqueryid>
+    <layoutxml>
+      <grid name="cttech_internalpurchaserequisitions" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="cttech_internalpurchaserequisition" id="cttech_internalpurchaserequisitionid">
+          <cell name="cttech_requisitionid" width="123" />
+          <cell name="cttech_location" width="100" />
+          <cell name="cttech_of95statusreason" width="155" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_internalpurchaserequisition">
+          <attribute name="cttech_internalpurchaserequisitionid" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_location" />
+          <order attribute="createdon" descending="false" />
+          <attribute name="cttech_of95statusreason" />
+          <attribute name="cttech_requisitionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="INTERNAL PURCHASE REQUISITION Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

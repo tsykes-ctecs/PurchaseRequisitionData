@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e0e2d210-2de0-ef11-a730-6045bd003dbc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{9775c82e-8053-43ca-9eb7-e16fec815f5b}" IsUserDefined="1" labelid="{dd024543-0995-475b-be7c-15d572eb6d57}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{a737c682-eac0-4162-a3ed-85ff2fba5803}" name="vendorTemplateCreator" labelid="{0d8ebd67-3f78-410c-9b18-535fa04f5a1f}">
+                  <labels>
+                    <label description="Vendor Template Creator" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2cbe0bcf-5711-4c3a-8216-afb15793b1d9}" locklevel="0" colspan="1" rowspan="1" labelid="{4be05e3a-ec84-4b37-9cb0-e2051af8c7ff}">
+                        <labels>
+                          <label description="Preferred Account Location" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_preferredaccountlocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_preferredaccountlocation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b90493c-11e6-4bd0-a1a6-0c9af37271eb}" labelid="{bc23d835-c31d-4d13-a71e-6e8ddf90e17d}">
+                        <labels>
+                          <label description="Vendor Name" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cttech_vendorname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{000d91e3-1719-42ca-a609-1cc438f551a2}" visible="false" labelid="{dea3e091-1e5c-4d83-baed-fa78695aab2d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d075429-8d28-4e09-8f03-1eef2d6bdf27}" locklevel="0" colspan="1" rowspan="1" labelid="{61e7a468-d564-4005-a36c-f2c91b3d0b67}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorcontact" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85dde2d9-b5ee-4a0b-a741-e53b11f4b84b}" locklevel="0" colspan="1" rowspan="1" labelid="{11878a02-3f66-41c0-a8f9-a02e3cbcd67e}">
+                        <labels>
+                          <label description="Email Primary" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoremailprimary" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cttech_vendoremailprimary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca081c04-0080-49ac-95c0-90d25227e945}" locklevel="0" colspan="1" rowspan="1" labelid="{dad4a603-c33e-482c-b642-74de70f8d44e}">
+                        <labels>
+                          <label description="Phone Primary" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorphoneprimary" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorphoneprimary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3fca98f3-756e-4283-834a-6debc790016e}" locklevel="0" colspan="1" rowspan="1" labelid="{34112dd0-86ce-485c-b064-2e0a5c23e178}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoraddress" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendoraddress" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e4c0ce46-3d7a-457f-857f-0b3c9408a1b5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{084fca99-8ef4-48ba-b1c8-725e8a9611eb}" showlabel="false" labelid="{70a84583-0ce6-4aba-ab94-628cfdfa67de}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b6ecdb59-4fc5-46e5-8835-cb1dfaeeea6e}" showlabel="false" labelid="{b0f7e17b-3c07-4128-9a9c-c1bbd16923b9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3bccf524-21b9-49eb-be75-7e174d554dd5}" showlabel="false" labelid="{0df0a0b0-337a-4784-930c-1016f8971295}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{03012a6d-29ba-44ac-bc8b-b6f3dd71de39}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6358db2b-ea29-40a9-be25-fb96c06e9775}" showlabel="false" labelid="{73527d2f-4dab-4320-9636-70400e6ae3bd}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bbdf4351-f6b2-494f-a17c-a367c9f6154a}" showlabel="false" labelid="{a8ba2cb4-70c8-4c76-9546-f5931e99bce0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{aba3423d-85b2-4cc9-97a8-9bf391da13e2}" showlabel="false" labelid="{378024ff-727d-4ebc-9e1e-d979d0391c85}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IPR Power Pages - Vendor Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

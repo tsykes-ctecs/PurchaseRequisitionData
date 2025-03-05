@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c6b761b9-8501-4761-909c-f8e8bb227cfb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_grantfundingid">
+          <cell name="cttech_name" width="300" />
+          <cell name="cttech_funding" width="100" />
+          <cell name="cttech_department" width="107" />
+          <cell name="cttech_sid1" width="100" />
+          <cell name="cttech_chartfield1" width="107" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_grantfunding">
+          <attribute name="cttech_grantfundingid" />
+          <attribute name="cttech_name" />
+          <order attribute="cttech_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_department" />
+          <attribute name="cttech_chartfield1" />
+          <attribute name="cttech_sid1" />
+          <attribute name="cttech_funding" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Grant Fundings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

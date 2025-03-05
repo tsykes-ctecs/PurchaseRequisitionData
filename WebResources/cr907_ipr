@@ -1,0 +1,34 @@
+// Internal Purcahse Requisition Event Handler
+var ipr = window.ipr || {};
+(function () {
+
+	this.onLoad = function (executionContext) {
+		console.log('Execute: ipr.onLoad');
+
+		var iprContext = executionContext.getFormContext();
+		var iprGridContext = iprContext.getControl('expenseLineItems') || {};
+
+		if (Object.keys(iprGridContext).length !== 0) {
+			iprGridContext.addOnLoad(aggregateExpenseCost);
+		}
+	}
+
+	function aggregateExpenseCost(executionContext) {
+		let iprContext = executionContext.getFormContext();
+		let iprGridContext = iprContext.getControl('expenseLineItems');
+		let iprSubgridExpense = iprGridContext.getGrid();
+		let iprSubgridExpenseRows = iprSubgridExpense.getRows();
+
+		var expenseCost = 0;
+		iprSubgridExpenseRows.forEach(function (row, index){
+
+			var expenseAttribute = row.getData().getEntity().attributes.getByIndex(3).getValue();
+			expenseCost += expenseAttribute
+
+			console.log(`Expense Cost: ${expenseCost}`);
+
+		})
+
+	}
+
+}).call(ipr);

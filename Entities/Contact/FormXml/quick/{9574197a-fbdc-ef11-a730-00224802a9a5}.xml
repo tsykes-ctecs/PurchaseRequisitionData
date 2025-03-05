@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9574197a-fbdc-ef11-a730-00224802a9a5}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form hasmargin="false" shownavigationbar="false">
+      <ancestor id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+      <tabs showlabels="false">
+        <tab name="general" verticallayout="true" id="{6fd9013a-2c88-4593-b364-c9f21e572640}" IsUserDefined="0" labelid="{a41c724f-175b-49eb-8ea6-369893429dff}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="details" id="{a9d2c4bb-9863-4712-b13c-f27c88331597}" IsUserDefined="0" showlabel="false" showbar="false" labelid="{92aa0365-45ba-4056-968c-9a8e2c373505}">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{958bb238-c9ac-42e8-7d34-4895b95e2650}" showlabel="true" locklevel="0" labelid="{07f74fc3-37af-44df-8910-4ed1cd815711}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3627b14-9e4e-e767-71c3-dc88b9e4946d}" showlabel="true" locklevel="0" labelid="{88d224ae-8ad7-48cb-a438-214e4ed99d0e}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7d58014-ca91-7338-a507-25cd221ab7ab}" showlabel="true" locklevel="0" labelid="{2c7ded7e-b80d-4dcd-ba24-1d868fa924ac}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76861a58-dec6-4865-b74b-10f1599cacdb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{861096e4-0552-4609-ba62-1e08907a0ac4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee0c3d0f-c0fd-4d43-9733-e60b12c9e36b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account Location" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_accountlocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_accountlocation" disabled="false">
+                          <parameters>
+                            <useMainFormDialogForCreate>true</useMainFormDialogForCreate>
+                            <useMainFormDialogForEdit>true</useMainFormDialogForEdit>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IPR Power Pages - Contact Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This is the form that is displayed for the contact Quick Form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

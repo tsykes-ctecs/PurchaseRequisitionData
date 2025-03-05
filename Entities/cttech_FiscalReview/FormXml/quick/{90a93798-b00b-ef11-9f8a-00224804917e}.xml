@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{90a93798-b00b-ef11-9f8a-00224804917e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{ac426a98-7259-4060-8cc9-002b99045b74}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d53f126f-5326-4a07-92f7-c7cdfd946501}">
+                  <labels>
+                    <label description="Fiscal Review" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{8e0d0e79-bfa7-474e-8d52-132bb483e007}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b29c8d71-458f-4c10-920c-4c40b1a51f1c}" locklevel="0" colspan="1" rowspan="1" labelid="{d5e01089-6b97-4ce7-824a-19412e6152c7}">
+                        <labels>
+                          <label description="Funding" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_funding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_funding" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9046cecd-be85-4b19-8020-6da1ebb27832}" locklevel="0" colspan="1" rowspan="1" labelid="{0891cc80-d5a0-48aa-a40f-66bc809e48fb}">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_department" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_department" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1d7c474-7a62-4ec6-bb20-78e5d736f1e5}" locklevel="0" colspan="1" rowspan="1" labelid="{47f388fd-3462-4f8c-a6a8-d6056b461108}">
+                        <labels>
+                          <label description="SID" languagecode="1033" />
+                        </labels>
+                        <control id="new_sid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_sid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7fdd9e4d-b217-4744-9e95-3301518d55cc}" locklevel="0" colspan="1" rowspan="1" labelid="{682c78bc-d9d8-4bda-bf2c-dd81bffff146}">
+                        <labels>
+                          <label description="Program" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_program" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_program" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47d138f3-1fde-4363-8f32-db3e6cd74b7a}" locklevel="0" colspan="1" rowspan="1" labelid="{045eebce-294f-4087-9f5d-092216cf7c32}">
+                        <labels>
+                          <label description="Accounts" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_accounts" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_accounts" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bb721cd-a39e-4604-9f40-b090ef7c8569}" locklevel="0" colspan="1" rowspan="1" labelid="{5b5a3ebe-353a-4612-a502-a0ab57edf49e}">
+                        <labels>
+                          <label description="Budget Ref" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_budgetref" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_budgetref" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02bda9cc-12fa-4522-badf-57b5983737c2}" locklevel="0" colspan="1" rowspan="1" labelid="{677ff4e2-a27f-460f-beb0-2492fcd89a46}">
+                        <labels>
+                          <label description="Chartfield 1" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_chartfield1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_chartfield1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c422c36c-1e33-4e46-80e3-35d688d31c47}" locklevel="0" colspan="1" rowspan="1" labelid="{3f239353-0c88-4d3b-9160-9f4c5b76db6a}">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="new_project" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_project" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Fiscal Review quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

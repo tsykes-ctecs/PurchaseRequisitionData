@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fe32b5fd-0e32-4bee-b861-3df783aadabb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{f875b32e-9c2b-4b58-b9e5-00fea1759379}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{12325757-a6ee-423e-95d0-1de599392c49}">
+          <labels>
+            <label description="New OF95 - Stage 1" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ee6fff33-6883-3367-150d-7ad747394986}" name="StageStep3_section1" labelid="{6dbf9e8b-748e-4bf7-aaa2-a4eab4c5bb45}">
+                  <labels>
+                    <label description="New OF95 - Stage 1" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{98235168-565d-4559-a4a0-e521f8fce8f5}" showlabel="true" visible="true" labelid="{e697d28a-810e-420c-9d1a-d86e4b9a6eae}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60a0c538-327c-4989-9381-87c3fe746c10}" showlabel="true" visible="true" labelid="{d70440b9-e6ef-4fae-9e6f-8d49a01ef7af}">
+                        <labels>
+                          <label description="Grant Funding" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_grantfunding" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_grantfunding" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9cc723c-cea6-4fdc-9af0-b16a5bd731f0}" showlabel="true" visible="true" labelid="{aa508052-4760-40dd-8c23-bbc6b022eddf}">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_purchaserequisitiontype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_purchaserequisitiontype" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7951d2cd-ee6c-487d-ab4c-9b75b657d09a}" showlabel="true" visible="true" labelid="{ba36f777-3144-481c-973a-41fbdf06127f}">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:createdon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="createdon" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{f16a9291-5d1b-4f23-b14f-7bda7aad7c4d}" name="StageStep13" locklevel="0" expanded="true" visible="false" labelid="{b394c9c4-912d-47d9-9c50-ba14607948d9}">
+          <labels>
+            <label description="Pending Approval Decision - Stage 2" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b538d8a2-a0c4-6f71-5f57-292322c5e429}" name="StageStep13_section1" labelid="{86acecc7-c2cf-43c5-b51c-b56bebc60007}">
+                  <labels>
+                    <label description="Pending Approval Decision - Stage 2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b4be609-7ea5-4fe7-99c0-7ccdc4f14156}" showlabel="true" visible="true" labelid="{c7fcd548-4470-4e5a-91ed-a2ee71d71930}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2b5dc66-e09f-4bdb-b328-2790714873c4}" showlabel="true" visible="true" labelid="{9aa3feb3-9e6a-4410-9141-5e97548806d4}">
+                        <labels>
+                          <label description="Email Address:" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_emailaddress" classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}" datafieldname="cttech_emailaddress" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d57bcf9e-66c7-48ec-9c63-a19fe882c88c}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{b5aa3035-8210-4654-adab-080e21d6fc15}">
+          <labels>
+            <label description="OF95 Stage 2" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{32f20edd-00a4-e708-0e10-01c0b1c960e3}" name="StageStep19_section1" labelid="{c6471c60-32a3-49bd-ba48-3ad49e62aa5d}">
+                  <labels>
+                    <label description="OF95 Stage 2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3af4347b-6f98-40f1-8330-5860bfd2fd49}" showlabel="true" visible="true" labelid="{c3b6817b-44bf-45af-a5c8-b98d0c1bf37b}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{463c781e-c569-4bf7-bcd5-ba48fdbace73}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{f79fbfd0-f346-4d55-a6bc-b98a4adaafa6}">
+          <labels>
+            <label description="Stage 2 Step 1 Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6014bfe7-6c7f-1f7a-5dd1-371bd8b0b4bf}" name="StageStep23_section1" labelid="{284c5a08-6577-4d20-94fc-b669fb01c0b7}">
+                  <labels>
+                    <label description="Stage 2 Step 1 Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cf6e942a-76e4-487b-b270-97d09a2598e2}" showlabel="true" visible="true" labelid="{ef7cd1b8-7993-4028-bda2-5000631bb501}">
+                        <labels>
+                          <label description="Approver Name:" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:createdby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="createdby" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c727581-ba36-41d5-b298-d45b9b43cc3f}" showlabel="true" visible="true" labelid="{1870282a-e6ef-46c6-a1fb-6109966790fa}">
+                        <labels>
+                          <label description="Approval Decision:" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_approvaldecision" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_approvaldecision" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0ff9ab5-0e71-4f29-ad59-aeb0bd5a4176}" showlabel="true" visible="true" labelid="{b66f86d9-1139-4d6c-8794-b4fde386de9b}">
+                        <labels>
+                          <label description="Decision Comment" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_decisioncomment" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cttech_decisioncomment" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a6db5b8-51fb-435f-893d-85776e14d150}" showlabel="true" visible="true" labelid="{e91b0152-3a11-4a7b-972b-0423c0dbd485}">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_purchaserequisitiontype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_purchaserequisitiontype" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d681c415-8cc8-44b4-9715-32b97f443407}" name="StageStep33" locklevel="0" expanded="true" visible="false" labelid="{792ad6f9-98e7-4f8b-857d-ed564ec748e8}">
+          <labels>
+            <label description="Stage 2 Step 2 Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5c7851a5-66c6-664a-0513-fc6e2f791fc6}" name="StageStep33_section1" labelid="{9eb5d84b-c8f1-4009-9b47-b6022348cf4f}">
+                  <labels>
+                    <label description="Stage 2 Step 2 Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0bbc8c25-74c8-4d8e-8c54-31a14fd34385}" showlabel="true" visible="true" labelid="{fadd97fe-3314-44d5-9eea-c9d0bb4d4838}">
+                        <labels>
+                          <label description="Approver Name:" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:createdby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="createdby" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59e5f4ae-089f-4f80-8106-72fe3c536eee}" showlabel="true" visible="true" labelid="{2bd5a52c-1127-44db-b7f9-e5d1941dc3b6}">
+                        <labels>
+                          <label description="Approval Decision:" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_approvaldecision" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_approvaldecision" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{801a5987-8402-477d-badb-7e0dd28772de}" showlabel="true" visible="true" labelid="{6024631e-68c3-44e0-a121-cae738dea9e5}">
+                        <labels>
+                          <label description="Decision Comment" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_decisioncomment" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cttech_decisioncomment" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3261de10-39af-41b0-b146-7f50c4fb803b}" showlabel="true" visible="true" labelid="{e53c91ff-2ee9-4558-861c-660d9628ae07}">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95:cttech_purchaserequisitiontype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cttech_purchaserequisitiontype" disabled="false" relationship="bpf_cttech_approvaluser_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{49526f95-e0d1-435f-8c70-de231749b3c0}" name="StageStep43" locklevel="0" expanded="true" visible="false" labelid="{194131d9-4981-49c0-b919-994586b18dc0}">
+          <labels>
+            <label description="Approval Decision - Stage 2" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1465a754-95a0-67dc-0654-9951f0ace12e}" name="StageStep43_section1" labelid="{110e0322-2f5b-4837-987f-aaf0d08e110b}">
+                  <labels>
+                    <label description="Approval Decision - Stage 2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec55cf3e-b391-44a8-a9cc-5ee1c90540e4}" showlabel="true" visible="true" labelid="{2033807b-6ad0-4823-a74f-89bce5370ade}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{23f12ecf-7e85-4663-a73d-935f9810ad0e}" name="StageStep47" locklevel="0" expanded="true" visible="false" labelid="{6e944b44-90d7-4b4e-a788-e900e3e5cb58}">
+          <labels>
+            <label description="Approved - Stage 3" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d4f204ad-b3d0-678c-3cbe-fcd382832abe}" name="StageStep47_section1" labelid="{e2ad6ce4-255a-45c6-b309-78b81dac046e}">
+                  <labels>
+                    <label description="Approved - Stage 3" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{60d22d9e-0cc8-43b9-a39c-717ee4ec4537}" showlabel="true" visible="true" labelid="{2f7dea64-17ee-4299-b65a-0ce692595469}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{024e409b-cf4c-4334-ba3b-98a7f458795b}" name="StageStep51" locklevel="0" expanded="true" visible="false" labelid="{e5f3f97d-f9a5-49af-a8df-1b6efd61965b}">
+          <labels>
+            <label description="Accounting &amp; Approval Review OF95 - Stage 5" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{582142d9-6126-db47-bd20-c1c6290a45be}" name="StageStep51_section1" labelid="{2dc609f6-e4b5-4a7a-b692-f0b8fadde817}">
+                  <labels>
+                    <label description="Accounting &amp; Approval Review OF95 - Stage 5" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{bf6cb7db-0580-41f0-aa65-4aed105b52ea}" name="StageStep55" locklevel="0" expanded="true" visible="false" labelid="{0487745a-6fa8-46fd-99d0-7d142cfd5e71}">
+          <labels>
+            <label description="Rejected - Stage 3" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{9a2b851c-857b-cb39-3b7c-cfe43dc9140e}" name="StageStep55_section1" labelid="{304eaaa5-4682-469e-8ae3-1b0fd2fd2661}">
+                  <labels>
+                    <label description="Rejected - Stage 3" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a99ec1ce-336d-4503-bec2-3a9f904e24b9}" showlabel="true" visible="true" labelid="{5ef8a626-db79-4ce1-8cd7-6c37acfc163d}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{26b21230-23da-45e1-8f18-f66e22790b0a}" name="StageStep59" locklevel="0" expanded="true" visible="false" labelid="{3204cdf2-0ed1-4cd3-ae4f-bc1dd6051b23}">
+          <labels>
+            <label description="Rejected OF95 - Stage Closing" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{a6dea518-724b-5531-2575-e3462aa64e38}" name="StageStep59_section1" labelid="{013dd33c-52e4-45b1-9d9d-0520f5550feb}">
+                  <labels>
+                    <label description="Rejected OF95 - Stage Closing" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3f62fdd5-890e-4f33-a134-07689fcbb9ff}" showlabel="true" visible="true" labelid="{7001d947-8f7b-443e-8720-98cb328c7136}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{aa80f3b7-7901-4e41-9281-1c20b10baa58}" name="StageStep63" locklevel="0" expanded="true" visible="false" labelid="{e7985468-7abd-43d9-9bd2-2a4d287203b0}">
+          <labels>
+            <label description="OF95 Request Closed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{e10a9946-3b82-9e63-2fa5-ea759b697cfd}" name="StageStep63_section1" labelid="{67a1fdbc-0de4-4160-8458-714daef90c12}">
+                  <labels>
+                    <label description="OF95 Request Closed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d8868222-9186-4fef-8fa4-00ea2094b65e}" showlabel="true" visible="true" labelid="{d7eb24db-6e38-491d-9784-abe4dd22f02a}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:statecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="statecode" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c213f1b0-6e9e-4c65-844f-3440633cf37f}" showlabel="true" visible="true" labelid="{3b65a8f3-ae46-48e1-9533-2634bf9e7d1a}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95:cttech_of95statusreason" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="cttech_of95statusreason" disabled="false" relationship="bpf_cttech_internalpurchaserequisition_cttech_internalpurchaserequisitionof95" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{aaad56a3-498d-ef11-ac21-6045bd061320}" Name="Zero Line Item Total business rule" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ZeroLineItemTotalbusinessrule-AAAD56A3-498D-EF11-AC21-6045BD061320.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.7</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerFormId>{708fed00-8413-ef11-9f89-0022480ab751}</ProcessTriggerFormId>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cttech_INTERNALPURCHASEREQUISITION</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Zero Line Item Total business rule" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{bd857226-a830-41cd-af99-dd226f86443b}">
+      <label languagecode="1033" description="Incomplete! The &quot;Total Line Item Amount&quot;, not calculated. Click on the 'Total Amount' calculate button under the Line Item section to proceed." />
+    </steplabels>
+  </labels>
+</Workflow>

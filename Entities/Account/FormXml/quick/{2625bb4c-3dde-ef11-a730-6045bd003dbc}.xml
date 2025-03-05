@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2625bb4c-3dde-ef11-a730-6045bd003dbc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="accountLocation" showlabel="false" labelid="{374deeb8-f248-4cb2-ae78-773dbe10243e}">
+          <labels>
+            <label description="Account Location" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="pointOfContact" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{4619fe23-f9dd-4fb9-8455-a96277067657}">
+                  <labels>
+                    <label description="Point of Contact" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{c7d4cb90-2bdf-413f-8a87-121c41fbb601}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b43acc7-1407-4030-be52-4122da6d2a77}" locklevel="0" colspan="1" rowspan="1" labelid="{8c6c035b-9654-4a70-aa1e-b39b4f91cbc1}">
+                        <labels>
+                          <label description="Account Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ca091d0-2bb4-4edc-aeab-f3c8eb70f6c2}" locklevel="0" colspan="1" rowspan="1" labelid="{11638c5c-c6fc-48cc-a810-5e35fa6da4d8}">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                        </labels>
+                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64d3ee24-af9a-4dcb-ac5d-06427007d4c7}" locklevel="0" colspan="1" rowspan="1" labelid="{d22ca5ee-ab8b-4b4d-87c2-79fa1c14ed7e}">
+                        <labels>
+                          <label description="Main Phone" languagecode="1033" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="4" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IPR Power Pages - Account POC Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Account Point of Contact Quick View" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

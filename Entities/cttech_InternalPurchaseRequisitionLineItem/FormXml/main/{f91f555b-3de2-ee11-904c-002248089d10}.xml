@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f91f555b-3de2-ee11-904c-002248089d10}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{5d7d7074-cb3a-492a-bd9d-ca6d6716ebb1}" IsUserDefined="1" labelid="{466b7e27-5a2a-4c24-a4be-45ea3f88a113}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{95414efd-1cc4-4bcb-a5d4-328055834da5}" columns="111" labelid="{876878d3-3ce7-438d-9328-d49721d10a5b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{92654459-d754-4abe-82f0-6d0c840dc23b}" labelid="{11f29a4f-cf6e-43b6-b472-274ca3b392f1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cttech_name" uniqueid="{38e3ec6d-406a-4432-099e-7351c6c637c3}" disabled="false" />
+                      </cell>
+                      <cell id="{c5ec692e-f31d-4b59-9c61-058adb420b2c}" locklevel="0" colspan="1" rowspan="1" labelid="{5ed06727-dfe0-4350-86d6-efa94f144d96}">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_unit" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_unit" disabled="false" />
+                      </cell>
+                      <cell id="{e9d2b33d-a7bd-0825-1e1d-55dd92030ca5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_quantity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cttech_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97194f12-151e-4b8d-8e85-26be4a15d895}" locklevel="0" colspan="1" rowspan="1" labelid="{a90bb373-9f6e-43b7-81e4-a8b74525b29f}">
+                        <labels>
+                          <label description="Unit Price" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_unitprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cttech_unitprice" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{aa725b4c-0181-4803-a729-4f3d80a1f6b8}" labelid="{073d1178-9adb-48ad-a498-45478e122023}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{2def39da-b0c6-44fb-bdfa-6166dec448c7}" labelid="{3f55e57e-f42f-4fa0-8254-0daa8fce8e67}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d90e2a21-5ca6-44db-854e-10b59d367da1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{72bab644-8f12-4c54-8528-3af43510436d}" showlabel="false" labelid="{2e69bc35-48db-4fa8-bcee-1470fddd0ebf}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cefda6bc-e707-4a43-a8d0-4bb949d23792}" showlabel="false" labelid="{4ea3f272-5768-4a39-8cec-c38f76f192ea}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{16eb9dc7-0618-46c1-876c-897991b8eb1e}" showlabel="false" labelid="{f2c06ef6-bfb5-4d88-9bcf-2b33c3333fd2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{db23583d-c1ed-4c48-a1ab-66d562e25e85}" colspan="1" rowspan="1" labelid="{6e20078c-99ca-40d0-9b9f-1d793d5eda0e}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{fdb24447-5b26-4883-915a-670f1e846eb0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9409ff74-1836-4af9-89e3-d7358ac29d57}" showlabel="false" labelid="{f4e21880-3642-4ec5-ac67-c5505920b502}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f0e2d2c5-c4d5-4284-8762-36801ac276d6}" showlabel="false" labelid="{1ab753f5-c999-4c4c-9f76-55e0c952573e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6f78089c-9070-42ad-9e82-62bb6c3a2168}" showlabel="false" labelid="{58d996d1-c6f3-4e65-88e9-3a86ae51f3d2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal Insert Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

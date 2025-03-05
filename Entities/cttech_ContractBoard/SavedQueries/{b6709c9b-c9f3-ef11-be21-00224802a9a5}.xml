@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b6709c9b-c9f3-ef11-be21-00224802a9a5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_number" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_contractboardid">
+          <cell name="cttech_status" width="73" />
+          <cell name="cttech_number" width="146" />
+          <cell name="cttech_contracttypecode" width="140" />
+          <cell name="cttech_contracttypedescription" width="176" />
+          <cell name="cttech_title" width="251" />
+          <cell name="cttech_contractadminname" width="166" />
+          <cell name="cttech_supplierid" width="100" />
+          <cell name="cttech_suppliername" width="119" />
+          <cell name="cttech_supplierlocation" width="135" />
+          <cell name="cttech_locked" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_contractboard">
+          <attribute name="cttech_contractboardid" />
+          <attribute name="cttech_number" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_contractadminname" />
+          <attribute name="cttech_title" />
+          <attribute name="cttech_supplierlocation" />
+          <attribute name="cttech_suppliername" />
+          <attribute name="cttech_supplierid" />
+          <attribute name="cttech_locked" />
+          <attribute name="cttech_status" />
+          <attribute name="cttech_contracttypecode" />
+          <attribute name="cttech_contracttypedescription" />
+          <order attribute="cttech_status" descending="false" />
+          <order attribute="cttech_number" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Boards" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

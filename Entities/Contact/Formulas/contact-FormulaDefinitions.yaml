@@ -1,0 +1,5 @@
+cttech_createdsource: |-
+    =Switch(owninguser.fullname,
+        "# Portals-Internal Requisition  - Internal-Requisition-OF95-dev", "Internal Requisition Site",
+        "Other"
+    )

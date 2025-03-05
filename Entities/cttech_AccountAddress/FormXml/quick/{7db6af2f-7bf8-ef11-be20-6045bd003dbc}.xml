@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7db6af2f-7bf8-ef11-be20-6045bd003dbc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{db34992b-3565-4a51-a483-7ee9e834bd65}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="accountShipTo" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{9e8bbdce-a4c8-4c64-8b42-2e643556fb77}">
+                  <labels>
+                    <label description="Account Ship To" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{c45a3ec5-78f5-4b1d-94f1-cabd1b0d855a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e187fe76-a9b1-409d-af36-2a06b178c03b}" locklevel="0" colspan="1" rowspan="1" labelid="{1a635e49-fa04-4b1d-b6fc-f30b9c514534}">
+                        <labels>
+                          <label description="Street" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_street" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_street" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83f15fc7-275c-42b9-8fc5-fbd847744255}" locklevel="0" colspan="1" rowspan="1" labelid="{88930b0b-c045-4ead-b556-e870bb75c8cf}">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5276759-ba26-4288-bb88-1dc90bcf4ce9}" locklevel="0" colspan="1" rowspan="1" labelid="{c57d2848-d98d-4841-9769-5748ecaf28de}">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_state" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_state" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{facae498-0dcc-4c62-88f0-cc50fdae1cf1}" locklevel="0" colspan="1" rowspan="1" labelid="{112e78e1-4871-4579-baf4-8c5978beeec1}">
+                        <labels>
+                          <label description="Postal Code" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_postalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa471420-148b-4455-9fab-c40173abdca4}" locklevel="0" colspan="1" rowspan="1" labelid="{8ba84797-2f62-40dd-b758-b67670d8f18c}">
+                        <labels>
+                          <label description="Account Address Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_accountaddresstype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_accountaddresstype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IPR - Account Address Shipt To Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

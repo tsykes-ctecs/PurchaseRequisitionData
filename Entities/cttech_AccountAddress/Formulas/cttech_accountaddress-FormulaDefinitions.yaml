@@ -1,0 +1,12 @@
+cttech_accountaddresspointofcontactemail: =Text(cttech_AccountAddressPointofContact.cr907_emailaddress)
+cttech_name: |-
+    =Concatenate(
+        cttech_accountaddressname, " ",
+        "(", 
+        Switch(Value(cttech_accountaddresstype),
+            397830000,"Billing",
+            397830001,"Shiping",
+            "Not Specified"
+        ), 
+        ")"
+    )

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{29cacfa0-ea9c-4a8e-bf32-9c770bd67d43}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_fiscalreviewid">
+          <cell name="cttech_internalpurchaserequisitio" width="206" />
+          <cell name="cttech_committedamount" width="153" />
+          <cell name="cttech_fund" width="100" />
+          <cell name="new_sid" width="100" />
+          <cell name="cttech_budgetref" width="105" />
+          <cell name="cttech_program" width="100" />
+          <cell name="cttech_chartfield1" width="107" />
+          <cell name="cttech_chartfield2" width="107" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_fiscalreview">
+          <attribute name="cttech_fiscalreviewid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_fund" />
+          <attribute name="new_sid" />
+          <attribute name="cttech_program" />
+          <attribute name="cttech_chartfield1" />
+          <attribute name="cttech_chartfield2" />
+          <attribute name="cttech_budgetref" />
+          <attribute name="cttech_committedamount" />
+          <attribute name="cttech_internalpurchaserequisitio" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Fiscal Reviews" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

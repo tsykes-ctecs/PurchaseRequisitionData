@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{edd7cc93-f5ce-4c38-9f1e-b8f4b9134938}</savedqueryid>
+    <layoutxml>
+      <grid name="cttech_accountaddresses" jump="cttech_accountaddressname" select="1" icon="1" preview="1">
+        <row name="cttech_accountaddress" id="cttech_accountaddressid">
+          <cell name="cttech_accountaddressname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_accountaddress">
+          <attribute name="cttech_accountaddressid" />
+          <attribute name="cttech_accountaddressname" />
+          <attribute name="createdon" />
+          <order attribute="cttech_accountaddressname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Account Address Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

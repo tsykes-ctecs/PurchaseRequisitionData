@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{327dce21-05e6-ee11-904d-00224804917e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2881758b-6759-4c13-ad05-451d40d06137}" IsUserDefined="1" name="CTECS_OF95" labelid="{339f88e7-7599-4c51-8a99-9c7ffbaa5675}">
+          <labels>
+            <label description="OF95" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2b7843a1-275e-4ae5-a868-d265634e8445}" columns="11" celllabelposition="Left" name="OF95" locklevel="1" labelid="{5d60ed1d-eb9f-4c00-81bb-6a32e94edcf5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2705ffaa-6802-4e5e-9751-cf70e35e2ec8}" locklevel="0" colspan="1" rowspan="1" labelid="{cdf69193-1eff-4dd1-a9e6-13e18050f64f}">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_location" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_location" disabled="false" />
+                      </cell>
+                      <cell id="{aeb05e7b-72e5-43c1-9dc0-3ae79ebec52a}" showlabel="false" labelid="{861da40b-a55f-42bf-a65f-32738de26055}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Bill_To" id="a0125afe-34f2-4544-b990-a315f12abfd8" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{40c7b649-7061-488e-bf88-4a00868e3ebc}">
+          <labels>
+            <label description="Bill To:" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="be778f91-2e11-47a6-aa6b-bf50959011f4" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{1f2554e4-0204-45f3-92c8-5cfc6b4dea97}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{780dc5cb-1bc4-4cf6-9fc2-551d446425be}" showlabel="false" labelid="{a2145420-2754-4bcf-84dd-0ef0f7c67813}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad1f070a-0431-4c73-b6e7-844daaf36022}" locklevel="0" colspan="1" rowspan="1" labelid="{dff7828f-1c0d-4402-9d98-ff557728af57}">
+                        <labels>
+                          <label description="Ship To same as Bill To" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_shiptosameasbillto" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cttech_shiptosameasbillto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a3cb4e58-8ddf-4c7c-adba-1a7acd9ef7af}" colspan="1" rowspan="1" labelid="{be001eb8-ea5c-491b-a105-0d62dead12f6}">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1709756632255" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cttech_location">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;277f02e5-98dc-ee11-904d-00224804917e&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Ship_To" id="27c8d4f6-fcb2-4195-9447-cf14e343fb66" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{f29afabe-3d8e-4c5e-bcd0-6c346e92fabd}">
+          <labels>
+            <label description="Ship To" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="6712fb8e-9039-4b50-817f-63add70d7476" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115" labelid="{45e43986-0d69-4d94-b645-6a574699122c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{45a3ef87-e388-4f7b-8c6a-c27b6aaf72c0}" locklevel="0" colspan="1" rowspan="1" labelid="{5917799a-bd16-4057-8ab1-933c3a2a229b}">
+                        <labels>
+                          <label description="Street" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_street" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_street" disabled="false" />
+                      </cell>
+                      <cell id="{a6d99b15-d92b-1266-e7ad-be0bbd168c91}" showlabel="false" userspacer="true" labelid="{13a27134-72c1-4c02-ae47-428c0214d698}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{d6d1b559-602a-496a-c3b2-91c2b93b5d8b}" showlabel="false" userspacer="true" labelid="{372a0850-15e9-44b6-9e53-aae6c3494a8d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{adaae44c-1933-e132-9155-94611e52720c}" showlabel="false" userspacer="true" labelid="{2860f91f-5f59-422f-87f6-d5e0ee086eb3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{82bc4e72-a0a5-e42c-dd07-e1338a9cb9b1}" showlabel="false" userspacer="true" labelid="{2d03654a-6f58-4e10-90ef-e671c362bb59}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{26b11ba1-3cda-dc03-7e54-c1192d4aec64}" showlabel="false" userspacer="true" labelid="{d376d428-bd18-4afc-b39e-8dfd3b830f2b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96e264da-2dc9-4708-834e-78a6a145d8bc}" locklevel="0" colspan="1" rowspan="1" labelid="{43ec3893-a678-493d-9def-c3e79705887b}">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_city" disabled="false" />
+                      </cell>
+                      <cell id="{09972709-6cfb-4542-ab25-0fb4718f99b9}" locklevel="0" colspan="1" rowspan="1" labelid="{bf61030e-510f-4da8-be95-7f763b5b36aa}">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_state" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_state" disabled="false" />
+                      </cell>
+                      <cell id="{dbac1077-2899-4dfe-a485-04d1670a0fd2}" locklevel="0" colspan="1" rowspan="1" labelid="{7344c869-6cdc-48fb-8ca9-3aee9c7cd2e3}">
+                        <labels>
+                          <label description="Zip" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_zip" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cttech_zip" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Ship_To_section_3" id="5fee9a3e-ec56-43c2-b402-5352480e44b2" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115" labelid="{8aaf804e-cdad-49c9-bf8f-9f664e469c00}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{0926c169-17f5-4a2e-9184-11f470d4b1ec}" showlabel="false" labelid="{3588ce59-d15c-4ea3-b418-c305cc6f5d1c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{d97e06e3-0700-450a-9255-3f22b093a807}" showlabel="false" labelid="{90d70f64-fa3f-4bf0-9e4d-f03499f55e4c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{e6a5a39e-5fa2-4e22-991b-0fc4c74a611e}" showlabel="false" labelid="{86a1dcfb-c7c1-4207-95a3-6e61a942dfbe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78ab5d51-2c5d-4bf4-89a3-ba306f649f9d}" locklevel="0" colspan="1" rowspan="1" labelid="{4f338a1e-40a5-4d80-8caa-f64ac0cdc6cb}">
+                        <labels>
+                          <label description="Attention" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_attention" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_attention" disabled="false" />
+                      </cell>
+                      <cell id="{7b3def05-6b17-4157-92d7-c74f4178e51c}" locklevel="0" colspan="1" rowspan="1" labelid="{1a5ce507-a65f-4f07-948f-39b5a1c4185e}">
+                        <labels>
+                          <label description="Date of Requisition: " languagecode="1033" />
+                        </labels>
+                        <control id="cttech_dateofrequisition" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cttech_dateofrequisition" disabled="false" />
+                      </cell>
+                      <cell id="{cbeffe79-f052-46cd-9d5f-09fe9661913e}" locklevel="0" colspan="1" rowspan="1" labelid="{d22e3380-e8cd-4e20-a167-e7f0b908f748}">
+                        <labels>
+                          <label description="Delivery Hours:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_deliveryhours" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_deliveryhours" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Ship_To_section_4" id="f81d3b68-8bda-4074-bb9e-c8d27ad39302" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{cb64bb3c-c5b1-4005-bbe5-321c3ab7da05}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5d6ffedb-ceab-4a63-95fc-6a3b5eab8ce4}" locklevel="0" colspan="1" rowspan="1" labelid="{f96b944c-2ac9-4a98-9fba-c343dc95bd65}">
+                        <labels>
+                          <label description="Vendor Name:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorname" disabled="false" />
+                      </cell>
+                      <cell id="{e3372ce3-3050-301b-b834-d4cec09e7dce}" showlabel="false" userspacer="true" labelid="{c39eae61-e3f5-4c3c-88f8-736ee4dfaddf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d72ec82-e5c4-44b3-9cf3-cc9eb74d37f5}" locklevel="0" colspan="1" rowspan="1" labelid="{6412652f-eddc-4aac-8283-c9bd9ec444c2}">
+                        <labels>
+                          <label description="Vendor Address:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoraddress" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cttech_vendoraddress" disabled="false" />
+                      </cell>
+                      <cell id="{b429d679-e7a2-1080-7c92-b7666466b897}" showlabel="false" userspacer="true" labelid="{04af642a-5642-4b11-b1c9-08d76bd16367}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c046949-0175-555e-1365-5e81e8177890}" showlabel="false" userspacer="true" labelid="{05d6b33e-0498-4716-a12a-558ddc8888b9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{db08b9e4-03b2-0649-6353-743bd6875821}" showlabel="false" userspacer="true" labelid="{7923f60e-c162-4139-b54c-da21ac6c026f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8977bf9-4e36-483a-af47-9699a730aa49}" locklevel="0" colspan="1" rowspan="1" labelid="{51b313c8-df31-4191-93c9-7eb3b86d399b}">
+                        <labels>
+                          <label description="Vendor Phone:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorphone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorphone" disabled="false" />
+                      </cell>
+                      <cell id="{07ee8c16-3982-435a-86d4-b7bb0a9e8510}" locklevel="0" colspan="1" rowspan="1" labelid="{968b5915-ae24-47d3-af3d-3976dec8ad06}">
+                        <labels>
+                          <label description="Vendor Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorcontact" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11127767-aa9a-be04-1693-a52611bcc94e}" showlabel="false" userspacer="true" labelid="{bea4a65b-3926-4dbb-b3cd-2030c877e19b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{cbf77055-6349-4905-89b5-42c8c2c1ebe6}" locklevel="0" colspan="1" rowspan="1" labelid="{87bd20b4-1fac-4fba-ae89-b679b9faf4c8}">
+                        <labels>
+                          <label description="Vendor Email" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoremail" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cttech_vendoremail" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Ship_To_section_5" id="4712960b-3bbb-42e1-83f0-2937ff05eba3" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115" labelid="{46201fa7-33b9-422f-a520-7637bc6a3f12}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{464a7a09-5f92-44bf-8d4e-3172d35ccf6c}" labelid="{a37a97d2-db70-4ad9-8751-cec0abc19362}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{0b6fea83-a5a9-4cbc-b936-23aa17b02024}" labelid="{d8b63092-f713-49e8-9eea-97cd0ae1e314}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{71eb16d2-d893-4e31-8549-47c5f0498761}" labelid="{f1c9f227-8167-4280-a64f-2bfce4a179a8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4c2838d-5b85-4f93-9648-2639e23daf8a}" locklevel="0" colspan="1" rowspan="1" labelid="{0e7ae4b1-a78a-40e8-8643-f75d038858e0}">
+                        <labels>
+                          <label description="Grant Funding" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_grantfunding" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_grantfunding" disabled="false" />
+                      </cell>
+                      <cell id="{1a6ccdc2-da11-4d2e-8df8-46104c2dc5c8}" locklevel="0" colspan="1" rowspan="1" labelid="{7016fa67-ad02-4cbc-806c-c0c45882cf0b}">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_purchaserequisitiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_purchaserequisitiontype" disabled="false" />
+                      </cell>
+                      <cell id="{e82547c6-47eb-424f-bde2-6a44af0a8fb3}" locklevel="0" colspan="1" rowspan="1" labelid="{56a2f28c-8f94-4592-9fc8-e04ae8689f4b}">
+                        <labels>
+                          <label description="Description Type of Purchase" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_descriptiontypeofpurchase" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_descriptiontypeofpurchase" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="7ff0362f-d005-48fa-815d-fbb52588126c" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{0e63620e-55f8-439f-9908-36cd92c634b9}">
+          <labels>
+            <label description="Document Upload" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="22fe4d18-c061-4fc9-af8f-481146a51c27" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{2d544f10-158c-46c9-a080-db05c815031c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{cece2e32-a6be-49e9-a8ce-c87172926c5a}" labelid="{96b9915a-0a79-4777-a177-561f34a2182e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{8727506a-2cbf-4105-a3e6-6ad7997062d0}" labelid="{e5f59d8c-9a35-40d9-b3ee-f36d1571c75d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86cb3f00-b8ff-4719-8267-7a4e8ff6cb7e}" locklevel="0" colspan="1" rowspan="1" labelid="{39c75dc3-e0ed-402f-b805-6e3944273104}">
+                        <labels>
+                          <label description="Contract Award Number" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_contractawardnumber" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cttech_contractawardnumber" disabled="false" />
+                      </cell>
+                      <cell id="{3365b9ab-1e67-43a8-bcdd-7291b2252e27}" locklevel="0" colspan="1" rowspan="1" labelid="{bd369d0f-01dc-48e7-ae13-92cf81de5d60}">
+                        <labels>
+                          <label description="Upload Funding Request File" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_uploadfundingrequestfile" classid="{0A7FF475-B016-4687-9CE5-042BFDBD6519}" datafieldname="cttech_uploadfundingrequestfile" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{2cc0d06d-6a59-4a0d-a3b2-e0979b7df771}" labelid="{7cc7b48e-767c-403f-bb98-c701fde257b2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{00347b72-72fc-49a3-b12f-2d34417182d9}" locklevel="0" colspan="1" rowspan="1" labelid="{62701043-cb14-4499-b934-2c1e225a468d}">
+                        <labels>
+                          <label description="Upload Funding Request File2" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_uploadfundingrequestfile2" classid="{0A7FF475-B016-4687-9CE5-042BFDBD6519}" datafieldname="cttech_uploadfundingrequestfile2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0609f9e8-9879-4d59-94f7-c7d2f12111ac}" locklevel="0" colspan="1" rowspan="1" labelid="{c4d6f91b-2b9b-4940-a4ef-efa049259aba}">
+                        <labels>
+                          <label description="Comment on Uploaded Documents" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_commentonuploadeddocuments" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_commentonuploadeddocuments" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="9f633233-b28c-4b75-8198-78771f5f8b28" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{2c7d9b26-f921-407f-aeab-725ae5f9df30}">
+          <labels>
+            <label description="Line Items" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_3" id="28211451-471b-4d67-9aa9-d6d9d9188537" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{28d14215-3ffb-4ed3-b3cd-37e84376feaf}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{ea5d3e34-9842-4cfe-b95e-50274bb8f241}" rowspan="4" colspan="1" auto="false" showlabel="false" labelid="{dcc85ba5-d275-425c-a4a9-c67fd9602fd1}">
+                        <labels>
+                          <label description="New SG control 1709759245968" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cttech_internalpurchaserequisitionlineitem</TargetEntityType>
+                            <ViewId>{9C08221A-8FF6-4057-99ED-7EB86071FE6E}</ViewId>
+                            <ViewIds>{9C08221A-8FF6-4057-99ED-7EB86071FE6E}</ViewIds>
+                            <RelationshipName>cttech_InternalPurchaseRequisitionLineIte</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_8" id="79f01fee-6de6-4e00-b4dc-4f0ea7d58727" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{289bad26-259e-4448-803d-ede1d87f5db5}">
+          <labels>
+            <label description="OF95 Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_8_section_1" id="188480c9-1fe8-416f-b5bc-70fe9080d077" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{0920ac8d-fefc-4d49-bd2a-0f91c8cfc04c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{3eb8400c-7249-40f1-ab73-05d9655f44b2}" labelid="{9385a4ab-d37d-443c-a540-bc2f5c4955a0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{f81ed7e9-243b-464a-b7ad-3633ea420124}" labelid="{51f42dc2-711c-40c8-b133-fd594ed4132e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d992cc9-c817-49c2-a4c2-5317a0f0dc2a}" locklevel="0" colspan="1" rowspan="1" labelid="{4ee59e7c-0a51-4535-9f16-316bcf08789d}">
+                        <labels>
+                          <label description="Requisition ID" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_requisitionid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_requisitionid" disabled="true" />
+                      </cell>
+                      <cell id="{0204ec63-bf78-4074-a5e0-e9402fa2d89b}" locklevel="0" colspan="1" rowspan="1" labelid="{76810b21-67d6-4cc2-a379-f6decc299f91}">
+                        <labels>
+                          <label description="Date of Requested:" languagecode="1033" />
+                        </labels>
+                        <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_8_section_3" id="856fdad0-61e8-4bf9-a196-b2956feff4ea" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{fbe0fac8-8bab-48f2-a667-e04c82f063ed}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{76948676-2302-4852-887e-8b817ddfad0f}" colspan="1" rowspan="1" labelid="{e7a6abd4-2fac-43c3-9346-4f94bf0765ca}">
+                        <labels>
+                          <label description="Ship To:" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1709825131730" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cttech_location">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>true</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;277f02e5-98dc-ee11-904d-00224804917e&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_8_section_4" id="3679c111-de3d-46a0-8eb6-3be7306c203b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{b8b431d5-871e-413b-8a06-f16789cfab0b}">
+                  <labels>
+                    <label description="Vendor Info" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{58b33193-ad78-4c3a-a15c-4d6cd50001ba}" locklevel="0" colspan="1" rowspan="1" labelid="{c99eba8e-af80-4266-9e0e-afec584bf4b4}">
+                        <labels>
+                          <label description="Vendor Name:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorname" disabled="true" />
+                      </cell>
+                      <cell id="{0d7f7ebc-500e-4a24-bd2f-8a0bcbd121fb}" locklevel="0" colspan="1" rowspan="1" labelid="{ff592d1a-b69c-46f1-aad6-d73bb5739ffd}">
+                        <labels>
+                          <label description="Vendor Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorcontact" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorcontact" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9100c758-2077-4ea2-b60e-ac176f6efd2a}" locklevel="0" colspan="1" rowspan="1" labelid="{33fa5b4e-0535-45ff-aa35-b9df75f3fde0}">
+                        <labels>
+                          <label description="Vendor Address:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoraddress" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cttech_vendoraddress" disabled="true" />
+                      </cell>
+                      <cell id="{9613a225-a2b1-44b2-8124-95e765f7c761}" locklevel="0" colspan="1" rowspan="1" labelid="{fb1c816e-aab7-4148-b49e-748122203831}">
+                        <labels>
+                          <label description="Vendor Phone:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendorphone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_vendorphone" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ccf1a31d-b741-4ee8-bfdd-f725a3270b31}" locklevel="0" colspan="1" rowspan="1" labelid="{738ce6cb-6ca7-4914-8776-0dcd2f4fbe6c}">
+                        <labels>
+                          <label description="Vendor Email" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_vendoremail" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cttech_vendoremail" disabled="true" />
+                      </cell>
+                      <cell locklevel="0" id="{13ba0565-df0b-43b9-8d26-5e4d52f55c83}" labelid="{1d1cd7b9-c6b3-4bd1-b6c1-650f5a4399e9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_8_section_5" id="9aa59a3f-b95e-4e21-8c75-1314c0e06625" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{5fda8c06-6384-4dc4-9c19-221ae4330670}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{602d8499-0458-4803-8661-7e7f7e27556e}" locklevel="0" colspan="1" rowspan="1" labelid="{b9b22509-f29c-4589-a86c-903f76e76d3e}">
+                        <labels>
+                          <label description="Grant Funding" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_grantfunding" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_grantfunding" disabled="true" />
+                      </cell>
+                      <cell id="{d4ea7b07-484f-4953-90da-2e62db9c2693}" locklevel="0" colspan="1" rowspan="1" labelid="{6b84d7af-6eb2-4345-8343-ebff7f6c45b2}">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_purchaserequisitiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_purchaserequisitiontype" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_8_section_6" id="94507359-b7ab-464d-a2ef-bbe5949b84b2" IsUserDefined="0" locklevel="1" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{cc0f3abf-312b-45ab-bb1c-cd44fd156c76}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{c4066709-0f6f-495b-a172-f7207e840704}" rowspan="4" colspan="1" auto="false" showlabel="false" labelid="{07b8a458-5423-4ee0-ab7d-37522dbab552}">
+                        <labels>
+                          <label description="New SG control 1709825457802" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_4" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cttech_internalpurchaserequisitionlineitem</TargetEntityType>
+                            <ViewId>{9C08221A-8FF6-4057-99ED-7EB86071FE6E}</ViewId>
+                            <ViewIds>{9C08221A-8FF6-4057-99ED-7EB86071FE6E}</ViewIds>
+                            <RelationshipName>cttech_InternalPurchaseRequisitionLineIte</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="ca9f5611-a92a-4b8a-b506-e567bd441856" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{7a20990d-cd3d-44b0-9dd0-2235312fe958}">
+          <labels>
+            <label description="Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="c542bf3e-8bfd-458e-b3ae-ebca6166d085" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{c73fd0fc-5b30-4838-ab99-b0b0b785d8e2}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{e25e3c46-e95d-4698-b8f0-f4df974030a4}" rowspan="4" colspan="1" auto="false" showlabel="false" labelid="{1eb44b8a-e77b-4d8e-b45d-cffe74a335e4}">
+                        <labels>
+                          <label description="New SG control 1703012083954" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cttech_approvaluser</TargetEntityType>
+                            <ViewId>{227C7EB6-D098-4EE8-B910-91CC4F3522BB}</ViewId>
+                            <ViewIds>{227C7EB6-D098-4EE8-B910-91CC4F3522BB}</ViewIds>
+                            <RelationshipName>cttech_ApprovalUser_cttech_INTERNALPURCHA</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_7" id="09c81b4f-714e-4c7a-8904-027a58943ae2" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{16adddf8-8c74-49f1-97ec-0b2afc4440af}">
+          <labels>
+            <label description="Fiscal Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_3" id="1e01b243-475d-484b-a736-2f1ebc93ee35" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{6a145d59-4f46-4925-8afe-f8f69430dfe8}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{8ceb6beb-bcee-4b66-96f5-3cd65030ac72}" rowspan="4" colspan="1" auto="false" showlabel="false" labelid="{2f809a00-b343-4690-ba17-42b1d310807d}">
+                        <labels>
+                          <label description="New SG control 1709761482454" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cttech_fiscalreview</TargetEntityType>
+                            <ViewId>{29CACFA0-EA9C-4A8E-BF32-9C770BD67D43}</ViewId>
+                            <ViewIds>{29CACFA0-EA9C-4A8E-BF32-9C770BD67D43}</ViewIds>
+                            <RelationshipName>cttech_FiscalReview_cttech_INTERNALPURCHA</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_7_section_1" id="e619badf-fd07-4fa3-8850-e36e30cd4e03" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{13234595-6f4e-4bb4-a6c7-c0dfa7bd4d3f}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{7e0cdb17-688e-4fd3-8a2e-fdd941605e52}" rowspan="15" colspan="1" labelid="{4f5d78e1-77fe-4ff1-b188-1d4bd1e47cbe}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{16eff265-e01a-47e9-9481-6dbc848b4268}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7d2a0924-810b-417f-b360-a2e86dee9de5}" showlabel="false" labelid="{8d278742-a580-48ce-ae5c-f34b372d0a44}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8b341120-0174-4f3f-97dd-56652b5bd411}" showlabel="false" labelid="{b8bdc234-77e4-4cc6-ab6c-17e61374dce2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{00dbee76-9dba-4fcc-970b-a807ff246289}" showlabel="false" labelid="{7f9a5ed2-66ed-4188-9550-628018981ac3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{58416697-44e9-4876-9a19-6bfdc68c7559}" colspan="1" rowspan="1" labelid="{1bc0622f-3779-4148-8a24-034689035a97}">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_cttech_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cttech_name" />
+            </cell>
+            <cell id="{9a108651-634a-4f93-9cdc-9ca50099678f}" colspan="1" rowspan="1" labelid="{1555f6ae-ddf4-4368-9093-d4cf807e2a01}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b5d1b83d-17a9-4dcd-9cda-fb098a30c1ec}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4116dac5-4943-43d3-9238-0f261b61d174}" showlabel="false" labelid="{66e52413-eddf-4436-a014-68da78d50335}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe936ad9-8dbd-42fb-89fb-b0e0800e1cb7}" showlabel="false" labelid="{6adc6e74-e9a5-458b-84d5-ae0df0698cfb}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1b3cc97e-2971-4353-9e50-9b7d8847c2be}" showlabel="false" labelid="{1ac5841c-da1a-4232-a411-b1843017619d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Lookup Test main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

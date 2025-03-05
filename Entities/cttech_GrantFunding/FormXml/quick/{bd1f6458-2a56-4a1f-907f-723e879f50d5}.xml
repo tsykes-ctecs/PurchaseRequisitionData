@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bd1f6458-2a56-4a1f-907f-723e879f50d5}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{361e3f8a-1c7e-4435-81ef-89449e931c1e}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e87546e6-2a9b-4aed-8e97-3ae912d99d84}" visible="true" name="QuickView">
+                  <labels>
+                    <label description="Funding" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8b528ebc-a78e-48e8-9ac7-69b68ea91ebb}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ad4ca22-57bf-42f0-ac10-5d9520109760}" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cttech_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8358041-ad20-4ac7-9611-03780091e9cb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Fund" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_funding" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_funding" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{435359fa-d29c-4bb5-9656-73c1433f7218}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_department" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_department" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b9e2461-049b-496e-858e-b9b8174d2774}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="SID" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_sid1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_sid1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f99af799-afad-45cd-ad8a-acc7fdbebc26}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Chartfield 1" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_chartfield1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_chartfield1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Fund Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

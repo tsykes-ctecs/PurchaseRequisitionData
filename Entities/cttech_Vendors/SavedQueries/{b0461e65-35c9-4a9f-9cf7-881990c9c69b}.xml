@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b0461e65-35c9-4a9f-9cf7-881990c9c69b}</savedqueryid>
+    <layoutxml>
+      <grid name="cttech_vendorses" jump="cttech_vendorname" select="1" icon="1" preview="0">
+        <row name="cttech_vendors" id="cttech_vendorsid">
+          <cell name="cttech_vendorname" width="218" />
+          <cell name="cttech_preferredaccountlocation" width="197" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_vendors">
+          <attribute name="cttech_vendorsid" />
+          <attribute name="cttech_vendorname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_preferredaccountlocation" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Vendors Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

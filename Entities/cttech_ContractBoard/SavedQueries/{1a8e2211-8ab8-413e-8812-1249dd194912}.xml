@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1a8e2211-8ab8-413e-8812-1249dd194912}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_number" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_contractboardid">
+          <cell name="cttech_status" width="73" />
+          <cell name="cttech_number" width="146" />
+          <cell name="cttech_contracttypecode" width="140" />
+          <cell name="cttech_contracttypedescription" width="176" />
+          <cell name="cttech_title" width="251" />
+          <cell name="cttech_contractadminname" width="166" />
+          <cell name="cttech_supplierid" width="100" />
+          <cell name="cttech_suppliername" width="119" />
+          <cell name="cttech_supplierlocation" width="135" />
+          <cell name="cttech_locked" width="100" />
+        </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl formFactor="0" name="Microsoft.PowerApps.PowerAppsOneGrid">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="ChildItems">
+                  <TargetEntityType>cttech_contractboardfulfillmentsupplier</TargetEntityType>
+                  <ViewId>0e7f854a-6cf1-4ee2-9ed1-84b46ad98413</ViewId>
+                  <ParentId>cttech_contractboard</ParentId>
+                </data-set>
+                <AccessibleLabel type="SingleLine.Text" />
+                <EnableEditing static="true" type="Enum">no</EnableEditing>
+                <DisableChildItemsEditing static="true" type="Enum">yes</DisableChildItemsEditing>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <EnableSorting static="true" type="Enum">yes</EnableSorting>
+                <EnableGrouping static="true" type="Enum">yes</EnableGrouping>
+                <EnableAggregation static="true" type="Enum">yes</EnableAggregation>
+                <EnableColumnMoving static="true" type="Enum">no</EnableColumnMoving>
+                <EnableMultipleSelection static="true" type="Enum">no</EnableMultipleSelection>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+                <EnablePagination static="true" type="Enum">yes</EnablePagination>
+                <EnableDropdownColor static="true" type="Enum">yes</EnableDropdownColor>
+                <EnableStatusIcons static="true" type="Enum">yes</EnableStatusIcons>
+                <EnableTypeIcons static="true" type="Enum">yes</EnableTypeIcons>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+                <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+                <ContextualLookupColumnFilters static="true" type="Enum">yes</ContextualLookupColumnFilters>
+                <LookupFilterBeginsWith static="true" type="Enum">no</LookupFilterBeginsWith>
+                <GridCustomizerControlFullName type="SingleLine.Text" />
+                <EnableStatusColumn static="true" type="Enum">yes</EnableStatusColumn>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="Microsoft.PowerApps.PowerAppsOneGrid">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="ChildItems">
+                  <TargetEntityType>cttech_contractboardfulfillmentsupplier</TargetEntityType>
+                  <ViewId>0e7f854a-6cf1-4ee2-9ed1-84b46ad98413</ViewId>
+                  <ParentId>cttech_contractboard</ParentId>
+                </data-set>
+                <AccessibleLabel type="SingleLine.Text" />
+                <EnableEditing static="true" type="Enum">no</EnableEditing>
+                <DisableChildItemsEditing static="true" type="Enum">yes</DisableChildItemsEditing>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <EnableSorting static="true" type="Enum">yes</EnableSorting>
+                <EnableGrouping static="true" type="Enum">yes</EnableGrouping>
+                <EnableAggregation static="true" type="Enum">yes</EnableAggregation>
+                <EnableColumnMoving static="true" type="Enum">no</EnableColumnMoving>
+                <EnableMultipleSelection static="true" type="Enum">no</EnableMultipleSelection>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+                <EnablePagination static="true" type="Enum">yes</EnablePagination>
+                <EnableDropdownColor static="true" type="Enum">yes</EnableDropdownColor>
+                <EnableStatusIcons static="true" type="Enum">yes</EnableStatusIcons>
+                <EnableTypeIcons static="true" type="Enum">yes</EnableTypeIcons>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+                <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+                <ContextualLookupColumnFilters static="true" type="Enum">yes</ContextualLookupColumnFilters>
+                <LookupFilterBeginsWith static="true" type="Enum">no</LookupFilterBeginsWith>
+                <GridCustomizerControlFullName type="SingleLine.Text" />
+                <EnableStatusColumn static="true" type="Enum">yes</EnableStatusColumn>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="Microsoft.PowerApps.PowerAppsOneGrid">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="ChildItems">
+                  <TargetEntityType>cttech_contractboardfulfillmentsupplier</TargetEntityType>
+                  <ViewId>0e7f854a-6cf1-4ee2-9ed1-84b46ad98413</ViewId>
+                  <ParentId>cttech_contractboard</ParentId>
+                </data-set>
+                <AccessibleLabel type="SingleLine.Text" />
+                <EnableEditing static="true" type="Enum">no</EnableEditing>
+                <DisableChildItemsEditing static="true" type="Enum">yes</DisableChildItemsEditing>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <EnableSorting static="true" type="Enum">yes</EnableSorting>
+                <EnableGrouping static="true" type="Enum">yes</EnableGrouping>
+                <EnableAggregation static="true" type="Enum">yes</EnableAggregation>
+                <EnableColumnMoving static="true" type="Enum">no</EnableColumnMoving>
+                <EnableMultipleSelection static="true" type="Enum">no</EnableMultipleSelection>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+                <EnablePagination static="true" type="Enum">yes</EnablePagination>
+                <EnableDropdownColor static="true" type="Enum">yes</EnableDropdownColor>
+                <EnableStatusIcons static="true" type="Enum">yes</EnableStatusIcons>
+                <EnableTypeIcons static="true" type="Enum">yes</EnableTypeIcons>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+                <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+                <ContextualLookupColumnFilters static="true" type="Enum">yes</ContextualLookupColumnFilters>
+                <LookupFilterBeginsWith static="true" type="Enum">no</LookupFilterBeginsWith>
+                <GridCustomizerControlFullName type="SingleLine.Text" />
+                <EnableStatusColumn static="true" type="Enum">yes</EnableStatusColumn>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_contractboard">
+          <attribute name="cttech_contractboardid" />
+          <attribute name="cttech_number" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_contractadminname" />
+          <attribute name="cttech_title" />
+          <attribute name="cttech_supplierlocation" />
+          <attribute name="cttech_suppliername" />
+          <attribute name="cttech_supplierid" />
+          <attribute name="cttech_locked" />
+          <attribute name="cttech_status" />
+          <order attribute="cttech_status" descending="false" />
+          <attribute name="cttech_contracttypecode" />
+          <attribute name="cttech_contracttypedescription" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contracts / Suppliers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

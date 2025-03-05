@@ -1,0 +1,6 @@
+cttech_contact: =cttech_contactname
+cttech_location: =cttech_contactlocation
+cttech_supplier: |-
+    =Text(cttech_supplierid, "###")
+cttech_vendorid: |-
+    =Text(cttech_bmsoid, "###")

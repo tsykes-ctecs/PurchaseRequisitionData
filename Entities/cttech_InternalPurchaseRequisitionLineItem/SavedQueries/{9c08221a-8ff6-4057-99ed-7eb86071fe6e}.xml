@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9c08221a-8ff6-4057-99ed-7eb86071fe6e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_internalpurchaserequisitionlineitemid">
+          <cell name="cttech_name" width="300" />
+          <cell name="cttech_unit" width="100" />
+          <cell name="cttech_quantity" width="100" />
+          <cell name="cttech_unitprice" width="100" />
+          <cell name="cttech_amount" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+              <parameters>
+                <entityName type="SingleLine.Text">Request Items</entityName>
+                <appName type="SingleLine.Text">Request Items</appName>
+                <appId type="SingleLine.Text">23089472-0a74-42ad-92d6-73c038800556</appId>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+              <parameters>
+                <entityName type="SingleLine.Text">Request Items</entityName>
+                <appName type="SingleLine.Text">Request Items</appName>
+                <appId type="SingleLine.Text">23089472-0a74-42ad-92d6-73c038800556</appId>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+              <parameters>
+                <entityName type="SingleLine.Text">Request Items</entityName>
+                <appName type="SingleLine.Text">Request Items</appName>
+                <appId type="SingleLine.Text">23089472-0a74-42ad-92d6-73c038800556</appId>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cttech_internalpurchaserequisitionlineitem">
+          <attribute name="cttech_internalpurchaserequisitionlineitemid" />
+          <attribute name="cttech_name" />
+          <attribute name="createdon" />
+          <order attribute="cttech_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cttech_unit" />
+          <attribute name="cttech_unitprice" />
+          <attribute name="cttech_quantity" />
+          <attribute name="cttech_amount" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Internal Purchase Requisition Line Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
