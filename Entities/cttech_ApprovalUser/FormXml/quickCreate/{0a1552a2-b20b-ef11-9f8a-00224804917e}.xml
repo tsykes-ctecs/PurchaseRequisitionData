@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0a1552a2-b20b-ef11-9f8a-00224804917e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{20aa9029-48d1-43e4-a9a9-1173e423d26c}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{53248281-c077-4127-a4f6-8451a8329d88}">
+                  <labels>
+                    <label description="Internal Purchase Requisition Approver" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d868460c-5ba9-4ee2-9b7e-977778af8320}" locklevel="0" colspan="1" rowspan="1" labelid="{60c7b7aa-c08f-4fa1-a6cf-d350bc7607b6}">
+                        <labels>
+                          <label description="Approver Name:" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{fc75fe83-c773-4e21-be55-a0332b7a251b}">
+                  <labels>
+                    <label description="Decision" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{be3aaf0c-e301-40f1-83a4-4c5662e06b34}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1300595e-041c-4c72-ac4e-7a2754fc9e19}" locklevel="0" colspan="1" rowspan="1" labelid="{f6ef551f-3d43-4eef-96a0-9fd3e72d8948}">
+                        <labels>
+                          <label description="Approval Decision:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_approvaldecision" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_approvaldecision" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97a9fc8b-2fad-4223-80d7-0812077f494d}" locklevel="0" colspan="1" rowspan="1" labelid="{38621d6b-00a9-4cad-a2c6-99053e681827}" visible="false">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_purchaserequisitiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_purchaserequisitiontype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{cee75b21-8a1e-4ad5-89fc-cc7d35fedd81}">
+                  <labels>
+                    <label description="Comment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{78d23e94-a209-4a07-8671-620df9080c0b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a3f68e3-a6f0-42da-aba3-9fa3015e8382}" locklevel="0" colspan="1" rowspan="1" labelid="{57275efa-eb3d-466a-9e0f-1e32598eed23}">
+                        <labels>
+                          <label description="Decision Comment" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_decisioncomment" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_decisioncomment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{132a9efc-a10b-45cc-8468-24421a89f1c5}" />
+        <Role Id="{d6f73673-ed9c-4af0-9bef-34055bea37bb}" />
+        <Role Id="{8c199561-d9b4-427f-8bc3-7567180e504f}" />
+        <Role Id="{7554a6f5-4d50-4d5f-8ade-c382531153c2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Approval User QC Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

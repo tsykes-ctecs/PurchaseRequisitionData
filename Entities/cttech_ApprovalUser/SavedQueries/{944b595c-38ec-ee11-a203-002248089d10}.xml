@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{944b595c-38ec-ee11-a203-002248089d10}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cttech_name" select="1" icon="1" preview="1">
+        <row name="result" id="cttech_approvaluserid">
+          <cell name="cttech_internalpurchaserequisitio" width="206" />
+          <cell name="createdby" width="135" />
+          <cell name="cttech_approvaldecision" width="151" />
+          <cell name="a_7452ba20656f4db4bfc04da9b11fa79b.cttech_of95statusreason" width="333" />
+          <cell name="cttech_decisioncomment" width="149" />
+          <cell name="createdon" width="105" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cttech_approvaluser">
+          <attribute name="cttech_approvaluserid" />
+          <attribute name="createdon" />
+          <attribute name="cttech_approvaldecision" />
+          <attribute name="createdby" />
+          <attribute name="cttech_decisioncomment" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+          <attribute name="cttech_internalpurchaserequisitio" />
+          <order attribute="createdon" descending="true" />
+          <order attribute="cttech_approvaldecision" descending="false" />
+          <order attribute="createdby" descending="true" />
+          <link-entity alias="a_7452ba20656f4db4bfc04da9b11fa79b" name="cttech_internalpurchaserequisition" to="cttech_internalpurchaserequisitio" from="cttech_internalpurchaserequisitionid" link-type="outer" visible="false">
+            <attribute name="cttech_of95statusreason" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approved Purchase Requisition " languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

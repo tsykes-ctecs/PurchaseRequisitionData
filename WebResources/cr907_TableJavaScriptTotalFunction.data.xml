@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{985fbc0a-cb7c-ef11-a670-000d3a3648a4}</WebResourceId>
+  <Name>cr907_TableJavaScriptTotalFunction</Name>
+  <DisplayName>Table JavaScript Total Function</DisplayName>
+  <Description>Portal Cal Total Function</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cr907_TableJavaScriptTotalFunction985FBC0A-CB7C-EF11-A670-000D3A3648A4</FileName>
+</WebResource>

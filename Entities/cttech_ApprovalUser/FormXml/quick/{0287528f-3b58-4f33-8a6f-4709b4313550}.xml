@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0287528f-3b58-4f33-8a6f-4709b4313550}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{07469782-b490-45bd-bcdb-222c4f0a1388}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c7d03d7d-c093-421f-9237-f801e5dafe24}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bbfb3c92-3307-46eb-a1ba-70cabb3a6534}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approver Name:" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32c42cdc-8c75-4a17-a86f-f1684343dc4c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approval Decision:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_approvaldecision" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_approvaldecision" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{702540d2-6be5-43f3-a9cf-e94ca3dc4d2d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Decision Comment" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_decisioncomment" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_decisioncomment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15dc07d4-70e7-4bd8-ac66-8407c0dbe953}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_purchaserequisitiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_purchaserequisitiontype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

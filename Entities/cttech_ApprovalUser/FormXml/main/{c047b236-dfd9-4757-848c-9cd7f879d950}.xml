@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c047b236-dfd9-4757-848c-9cd7f879d950}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{84a95046-f0e3-4af1-b32e-8f21caf7597e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{af2c2643-b539-4f6f-bdf4-288bd06ec18b}" celllabelposition="Top">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{90a4440d-343b-4bf6-b8aa-04a43cbdeb0d}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approver Name:" languagecode="1033" />
+                        </labels>
+                        <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="b7398e3d-810a-40ea-b22a-66680eb9acf8" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{4103b725-81b0-41da-a405-df09ef9c5191}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{0db9b414-42a4-4a46-b8fa-d20661882a8b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d7c3db7-be67-4edd-9a49-00c976ed511a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approval Decision:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_approvaldecision" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_approvaldecision" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{07aad2bf-56e6-4bf1-89b9-adaeaf124577}" colspan="1" rowspan="6" showlabel="false">
+                        <labels>
+                          <label description="New calendar" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="cc_1724155756712" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{044897fe-437d-419e-8c73-f153289c76a1}">
+                          <parameters>
+                            <TargetEntityType>cttech_approvaluser</TargetEntityType>
+                            <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{9b9769b7-ee17-4bd3-baa5-19707758f505}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Purchase Requisition Type" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_purchaserequisitiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cttech_purchaserequisitiontype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{9df833b2-0230-4470-8091-3f80709a152c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{0c1790db-b1e1-457a-9e0a-8ccc953b8279}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approval Decision Tier I:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_approvaldecisionphasei" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cttech_approvaldecisionphasei" uniqueid="{f4654d3e-86f3-425d-b219-85559bcb92bb}" />
+                      </cell>
+                      <cell locklevel="0" id="{47c896a8-2c15-4ac2-a4e9-7619f4acbffe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a7706736-bfa2-4b14-9d3f-940233675381}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approval Decision Tier II:" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_approvaldecisionphaseii" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cttech_approvaldecisionphaseii" uniqueid="{6c381456-5a34-4918-8115-c921a236b1b8}" />
+                      </cell>
+                      <cell locklevel="0" id="{0d56a714-08ce-4518-a8a6-8fc3ae8cd679}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f96626ec-5221-4703-983b-551e05ab0fcc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Decision Comment" languagecode="1033" />
+                        </labels>
+                        <control id="cttech_decisioncomment" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cttech_decisioncomment" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{a43567e9-f7f4-4e0b-9010-51427a9734fb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0d445d1a-1f02-4fa7-a43a-4ed25f137caa}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{36f8729d-5dc7-4dbc-9489-aaff46f86a22}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{edcbef9f-bcca-4272-8a7e-092ac6b2cc9a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f45bd624-3547-4a5c-9a1c-fa414a0844c7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fa8a38ee-14b3-4842-be40-8ba1899bcfbd}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{1dddb47b-98fd-4f28-bd1c-1b2eee462978}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Internal Purchase Requisition" languagecode="1033" />
+              </labels>
+              <control id="header_cttech_internalpurchaserequisitio" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cttech_internalpurchaserequisitio" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c677b579-16c8-470f-a828-36e3cd0fbe16}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9a95a735-7cac-4479-8f86-7036f3be3075}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{aac019ad-a3fd-47ac-971d-28322e58863e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b58fd3a5-3ac2-421d-8174-df66c46a4622}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{044897fe-437d-419e-8c73-f153289c76a1}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>cttech_approvaluser</TargetEntityType>
+              <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>cttech_approvaluser</TargetEntityType>
+              <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl">
+            <parameters>
+              <data-set name="Calendar">
+                <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+                <TargetEntityType>cttech_approvaluser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+                <StartDate>createdon</StartDate>
+                <Description>createdby</Description>
+                <EndDate>modifiedon</EndDate>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl">
+            <parameters>
+              <data-set name="Calendar">
+                <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+                <TargetEntityType>cttech_approvaluser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+                <StartDate>createdon</StartDate>
+                <Description>createdby</Description>
+                <EndDate>modifiedon</EndDate>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl">
+            <parameters>
+              <data-set name="Calendar">
+                <ViewId>{944b595c-38ec-ee11-a203-002248089d10}</ViewId>
+                <TargetEntityType>cttech_approvaluser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+                <StartDate>createdon</StartDate>
+                <Description>createdby</Description>
+                <EndDate>modifiedon</EndDate>
+              </data-set>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{f4654d3e-86f3-425d-b219-85559bcb92bb}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cttech_approvaldecisionphasei</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cttech_approvaldecisionphasei</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphasei</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphasei</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphasei</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{6c381456-5a34-4918-8115-c921a236b1b8}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cttech_approvaldecisionphaseii</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cttech_approvaldecisionphaseii</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphaseii</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphaseii</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cttech_approvaldecisionphaseii</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

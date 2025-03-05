@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{bc545030-b013-ef11-9f89-0022480ab751}</WebResourceId>
+  <Name>cr907_forceSave</Name>
+  <DisplayName>forceSave</DisplayName>
+  <Description>Force Save Event on Change of Column </Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cr907_forceSaveBC545030-B013-EF11-9F89-0022480AB751</FileName>
+</WebResource>
